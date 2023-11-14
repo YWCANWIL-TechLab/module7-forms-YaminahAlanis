@@ -84,7 +84,78 @@
             </p>
         </section>
         <section id="answers" class="container">
-
+            <form id="form1">
+                <label for="FN">Firstname</label>
+                <input type="text" id="FN" value="Jane">
+                <label for="LN">Lastname</label>
+                <input type="text" id="LN" value="Doe">
+            </form>
+            <br>
+            <form id="form2">
+                <label for="FN">Firstname</label>
+                <input type="text" id="FN">
+                <label for="LN">Lastname</label>
+                <input type="text" id="LN">
+                <label for="MN">Middlename</label>
+                <input type="text" id="MN" disabled>
+            </form>
+            <br>
+            <form id="form3">
+                <label for="UN">Username</label>
+                <input type="text" id="UN">
+                <label for="pwd">Password</label>
+                <input type="password" readonly>
+            </form>
+            <br>
+            <form id="form4">
+                <textarea size="50"></textarea>
+                <input type="reset">
+            </form>
+            <br>
+            <form id="form5">
+                <textarea maxlength="100"></textarea> 
+            </form>
+            <br>
+            <form id="form6">
+                <label for="dates">When did you get sick with Covid-19?</label>
+                <input type="date" max="2020-01-31" min="2023-05-31">
+            </form>
+            <br>
+            <form id="form7">
+                <label for="files">Upload HTML files</label>
+                <input type="file" multiple>
+            </form>
+            <br>
+            <form id="form8">
+                <input type="search" placeholder="Type your question here">
+            </form>
+            <br>
+            <form id="form9">
+                <label for="number">What's your lucky number?</label>
+                <input type="number" autofocused>
+            </form>
+            <br>
+            <form id="form10">
+                <label for="range">How many dollars do you have in the bank?</label>
+                <input type=range id="range" min="0" max="100" step="2">
+            </form>
+            <br>
+            <form id="form11">
+                <input type="text" placeholder="Enter Firstname">
+                <input type="text" placeholder="Enter Lastname">
+                <input type="image" src="../images/logo_ywca_32by32.png" alt="ywca logo" width="32px" height="32px">
+            </form>
+            <br>
+            <form id="form12">
+                <label for="fruit-dropdown">What's your favorite fruit?</label>
+                <input type="text" id="fruit-dropdown" list="fruits" autocomplete>
+                <datalist id="fruits">
+                    <option value="melon"></option>
+                    <option value="apple"></option>
+                    <option value="pear"></option>
+                </datalist>
+            </form>
+            <!--completed both exercises module 7-->
         </section>
         <script src="" async defer></script>
     </body>
